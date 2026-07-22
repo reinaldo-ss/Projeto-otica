@@ -1,0 +1,3 @@
+Teste de acesso e edição - 21/07/2026
+Consegui criar e escrever neste arquivo!
+Claude tem permissão total para ler, escrever e editar arquivos nesta pasta.

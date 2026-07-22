@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Reinaldo Santana\\\\Documents\\\\UNIP\\\\Teste otica\" -Force)",
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)",
+      "PowerShell($f = Get-Item \"C:\\\\Users\\\\Reinaldo Santana\\\\Documents\\\\UNIP\\\\Teste otica\\\\Smooth_D_product_animation_T.mp4\"; \"Size MB: \" + [math]::Round\\($f.Length/1MB,2\\); try { $v=\\(Get-Command ffmpeg -ErrorAction Stop\\).Source; \"ffmpeg: $v\" } catch { \"ffmpeg: NOT FOUND\" })",
+      "PowerShell(foreach \\($c in @\\('node','npx','python','py','php'\\)\\) { try { $p=\\(Get-Command $c -ErrorAction Stop\\).Source; \"$c -> $p\" } catch { \"$c -> nao encontrado\" } })",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.nngroup.com)"
+    ]
+  }
+}
